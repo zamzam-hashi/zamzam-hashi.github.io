@@ -14,7 +14,7 @@ document.querySelectorAll('.nav-links a').forEach(link => {
 });
 
 // Typing animation
-const typed = new Typed('#typed-text', {
+const typed = new typed('#typed-text', {
   strings: ["Hi, I'm Zamzam 👩‍💻", "Welcome to my portfolio."],
   typeSpeed: 60,
   backSpeed: 30,

@@ -234,3 +234,12 @@ body {
   cursor: pointer;
   margin-left: 1rem;
 }
+
+#typed-text {
+  font-size: 2rem;
+  color: #007acc;
+  font-weight: bold;
+}
+
+
+

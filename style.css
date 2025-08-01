@@ -50,9 +50,6 @@ a:hover {
 .nav-links li a {
   font-weight: 600;
 }
-.nav-links li a:hover {
-  color: #005fa3;
-}
 
 .hamburger {
   display: none;

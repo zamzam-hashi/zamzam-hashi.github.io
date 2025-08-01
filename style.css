@@ -222,5 +222,27 @@ body {
   font-weight: bold;
 }
 
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+  gap: 2rem;
+  justify-items: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.skill img {
+  width: 60px;
+  height: 60px;
+  transition: transform 0.3s ease;
+  filter: grayscale(100%);
+}
+
+.skill img:hover {
+  transform: scale(1.2);
+  filter: none;
+}
+
+
 
 

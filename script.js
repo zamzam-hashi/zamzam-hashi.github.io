@@ -13,21 +13,6 @@ document.querySelectorAll('.nav-links a').forEach(link => {
   });
 });
 
-const toggleBtn = document.getElementById('theme-toggle');
-const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-const storedTheme = localStorage.getItem('theme');
-
-// Set initial theme on page load
-if (storedTheme === 'dark' || (!storedTheme && prefersDark)) {
-  document.body.classList.add('dark');
-}
-
-toggleBtn.addEventListener('click', () => {
-  document.body.classList.toggle('dark');
-  const isDark = document.body.classList.contains('dark');
-  localStorage.setItem('theme', isDark ? 'dark' : 'light');
-});
-
 // Typing animation
 document.addEventListener('DOMContentLoaded', function () {
   new Typed('#typed-text', {

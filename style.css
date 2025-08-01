@@ -173,11 +173,14 @@ body {
 .footer .socials {
   display: flex;
   justify-content: center;
-  gap: 1.5rem;
+  gap: 1rem;
+  align-items: center;
 }
 .footer .icon {
-  width: 24px;
-  height: 24px;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: middle;
   filter: grayscale(100%);
   transition: filter 0.2s, transform 0.2s;
 }

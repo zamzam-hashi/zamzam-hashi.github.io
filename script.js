@@ -29,10 +29,12 @@ toggleBtn.addEventListener('click', () => {
 });
 
 // Typing animation
-const typed = new typed('#typed-text', {
-  strings: ["Hi, I'm Zamzam 👩‍💻", "Welcome to my portfolio."],
-  typeSpeed: 60,
-  backSpeed: 30,
-  backDelay: 1000,
-  loop: true
+document.addEventListener('DOMContentLoaded', function () {
+  new Typed('#typed-text', {
+    strings: ["Hi, I'm Zamzam 👩‍💻", "Welcome to my portfolio."],
+    typeSpeed: 60,
+    backSpeed: 30,
+    backDelay: 1000,
+    loop: true
+  });
 });

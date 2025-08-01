@@ -50,6 +50,12 @@ a:hover {
 .nav-links li a {
   font-weight: 600;
 }
+.nav-links a{
+  color: var(--light-pink); 
+}
+.nav-links a:hover {
+  color: var(--light-pink-hover);
+}
 
 .hamburger {
   display: none;
@@ -208,6 +214,7 @@ body {
   background: var(--nav-bg);
   border-color: var(--border-color);
 }
+
 
 #typed-text {
   font-size: 2rem;
